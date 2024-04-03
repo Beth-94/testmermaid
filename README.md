@@ -7,7 +7,7 @@
 
 ```mermaid
 gantt
-    Diagrama de Gantt Gantt Chart
+    title Diagrama de Gantt 
 
     section Section
     Task 1           :a1, 2024-04-01, 30d
