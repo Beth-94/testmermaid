@@ -9,6 +9,7 @@
 gantt
     Diagrama de Gantt
 
+
     section Section
     Task 1           :a1, 2024-04-01, 30d
     Task 2           :after a1  , 20d
