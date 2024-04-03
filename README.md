@@ -1,24 +1,19 @@
-![rendered image description](relative/path/to/rendered_image. svg or png )
+![rendered image description](relative/path/to/rendered_image.png)
+
 <details>
   <summary>diagram source</summary>
   This details block is collapsed by default when viewed in GitHub. This hides the mermaid graph definition, while the rendered image
   linked above is shown. The details tag has to follow the image tag. (newlines allowed)
 
 ```mermaid
-graph LR
-    A[README.md]
-    B{Find mermaid graphs<br>and image paths}
-    C[[docker mermaid-cli]]
-    D[[docker mermaid-cli]]
-    E(Graph 1 png image)
-    F(Graph 2 svg image)
+gantt
+    title Example Gantt Chart
 
-    A -->|passed to| B
-    subgraph render-md-mermaid.sh
-      B --> |path/to/image1.png<br>+mermaid source| C
-      B --> |path/to/image2.svg<br>+mermaid source| D
-    end
-    C --> E
-    D --> F
+    section Section
+    Task 1           :a1, 2024-04-01, 30d
+    Task 2           :after a1  , 20d
+    Final Section    : 2024-05-12  , 12d
+
+
 ```
 </details>
