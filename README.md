@@ -9,8 +9,8 @@
 gantt
     title Diagrama de Gantt 
 
-    section Section
-    Task 1           :a1, 2024-04-01, 30d
+    section Semana 1
+    Task ETL           :a1, 2024-04-01, 30d
     Task 2           :after a1  , 20d
     Final Section    : 2024-05-12  , 12d
 
