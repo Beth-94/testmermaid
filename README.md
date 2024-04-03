@@ -1,4 +1,4 @@
-![rendered image description](relative/path/to/rendered_image.png)
+![rendered image description](Imagenes/NYC.jpg)
 
 <details>
   <summary>diagram source</summary>
