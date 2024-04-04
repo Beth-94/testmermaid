@@ -8,7 +8,11 @@
 ```mermaid
 gantt
     title Semana 1
-    section_height 2
+     %%{
+    "ganttConfig": {
+        "scale": 2
+    }
+    }%%
 
   section Elizabeth
     ETL           :a1, 2024-04-01, 4d
