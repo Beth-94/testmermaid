@@ -35,7 +35,8 @@ gantt
     section Daily
     Meet               :active, a1, 2024-04-01, 25d
     DEMO 1                             :after Meet, 2024-04-05, 0d
-    Add another diagram to demo page    :48h
+    DEMO 2                             :after Meet, 2024-04-12, 0d
+    DEMO 3                             :after DEMO 2, 2024-04-19, 0d
 
 ```
 </details>
