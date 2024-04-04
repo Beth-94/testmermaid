@@ -12,7 +12,7 @@ gantt
 
   section Elizabeth
     ETL           :a1, 2024-04-01, 4d
-    Documentación ETL    :after a1, 2024-04-03, 2d
+    ETL Doc    :after a1, 2024-04-03, 2d
     Task Elizabeth    :after a1 + 2d, 20d
     Final Elizabeth    : 2024-05-12  , 12d
 
