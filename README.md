@@ -9,7 +9,7 @@
 gantt
     title Semana 1
      %%{
-    "ganttConfig": {
+        "ganttConfig": {
         "scale": 2
     }
     }%%
