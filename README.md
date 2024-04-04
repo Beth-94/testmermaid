@@ -15,8 +15,7 @@ gantt
 
     section Marcelo
     EDA           :a2, 2024-04-01, 4d
-    Task Marcelo    :after a2 + 2d, 20d
-    Final Marcelo    : 2024-05-17  , 12d
+    EDA Doc       :2024-04-03, 2d
 
     section Cristian
      ETL           :a3, 2024-04-10, 4d
