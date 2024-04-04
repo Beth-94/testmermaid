@@ -11,7 +11,7 @@ gantt
 
     section Elizabeth
     ETL           :a1, 2024-04-01, 4d
-    Task Marcelo    :after a1  , 3d
+    Docu    :after a1  , 3d
     Final Section    : 2024-05-12  , 12d
 
 
