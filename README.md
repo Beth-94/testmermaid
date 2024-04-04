@@ -33,7 +33,7 @@ gantt
     Add another diagram to demo page    :doc1, after a1  , 48h
 
     section Daily
-    Describe gantt syntax               :after doc1, 3d
+    Meet               :active, a1, 2024-04-01, 25d
     Add gantt diagram to demo page      :20h
     Add another diagram to demo page    :48h
 
