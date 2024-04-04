@@ -7,7 +7,8 @@
 
 ```mermaid
 gantt
-    title Diagrama de Gantt 
+    title Semana 1
+    section_height 2
 
   section Elizabeth
     ETL           :a1, 2024-04-01, 4d
