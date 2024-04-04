@@ -11,8 +11,8 @@ gantt
 
     section Elizabeth
     ETL              :a1, 2024-04-01, 4d
-    Documentación    :a1,2024-04-01, 3d
-    Final Section    : 2024-05-12  , 12d
+    Documentación     :after a1,2024-04-01, 3d
+    Final Section      : 2024-05-12  , 12d
 
 
 ```
