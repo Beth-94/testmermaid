@@ -27,7 +27,7 @@ gantt
     Add to mermaid                      :until isadded
     Functionality added                 :milestone, isadded, 2014-01-25, 0d
 
-    section Documentation
+    section Documentación
     Describe gantt syntax               :active, a1, after des1, 3d
     Add gantt diagram to demo page      :after a1  , 20h
     Add another diagram to demo page    :doc1, after a1  , 48h
@@ -37,5 +37,19 @@ gantt
     Add gantt diagram to demo page      :20h
     Add another diagram to demo page    :48h
 
+```
+</details>
+
+<details>
+  <summary>diagram source</summary>
+  This details block is collapsed by default when viewed in GitHub. This hides the mermaid graph definition, while the rendered image
+  linked above is shown. The details tag has to follow the image tag. (newlines allowed)
+
+```mermaid
+gantt
+    apple :a, 2017-07-20, 1w
+    banana :crit, b, 2017-07-23, 1d
+    cherry :active, c, after b a, 1d
+    kiwi   :d, 2017-07-20, until b c
 ```
 </details>
