@@ -10,7 +10,8 @@ gantt
     title Diagrama de Gantt 
 
   section Elizabeth
-     ETL           :a1, 2024-04-01, 4d
+    ETL           :a1, 2024-04-01, 4d
+    Documentación ETL    :after a1, 2024-04-03, 2d
     Task Elizabeth    :after a1 + 2d, 20d
     Final Elizabeth    : 2024-05-12  , 12d
 
